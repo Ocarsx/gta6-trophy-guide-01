@@ -1,0 +1,109 @@
+/* Leonida Legend — an original look for the GTA VI trophy guide.
+   Deep teal + sunset amber on near-black; no borrowed artwork, all
+   decoration is CSS and inline SVG shapes. */
+:root {
+  --ink: #f2ede3;
+  --ink-dim: #b9b2a4;
+  --bg: #10161a;
+  --panel: #182227;
+  --panel-2: #1f2d33;
+  --line: #2e4046;
+  --amber: #f2a33c;
+  --teal: #3ec6a7;
+  --platinum: #cfe8ef;
+  --gold: #f2c14e;
+  --silver: #c7ccd1;
+  --bronze: #d08a4e;
+  --danger: #e2604d;
+  --radius: 12px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  line-height: 1.5;
+}
+.masthead {
+  background:
+    radial-gradient(900px 240px at 85% -40px, rgba(242, 163, 60, .28), transparent 60%),
+    radial-gradient(700px 260px at 8% -60px, rgba(62, 198, 167, .22), transparent 55%),
+    linear-gradient(180deg, #142024, #10161a);
+  border-bottom: 1px solid var(--line);
+}
+.masthead-inner { max-width: 1080px; margin: 0 auto; padding: 40px 20px 28px; }
+.kicker { margin: 0 0 6px; letter-spacing: .14em; text-transform: uppercase; font-size: 12px; color: var(--amber); font-weight: 700; }
+h1 { margin: 0; font-size: 44px; line-height: 1.05; letter-spacing: -.01em; }
+.tagline { margin: 10px 0 0; max-width: 640px; color: var(--ink-dim); font-size: 17px; }
+.progress-wrap { margin-top: 22px; max-width: 640px; }
+.progress-bar { height: 12px; border-radius: 999px; background: #0a0f12; border: 1px solid var(--line); overflow: hidden; }
+.progress-bar span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--teal), var(--amber)); transition: width .3s ease; }
+.progress-text { margin: 8px 0 0; font-size: 14px; color: var(--ink-dim); }
+.progress-text strong { color: var(--ink); }
+
+main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 48px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 18px; }
+.panel h2 { margin: 0 0 8px; font-size: 22px; }
+.panel-note { margin: 6px 0; color: var(--ink-dim); }
+.panel-note em { color: var(--ink); font-style: normal; font-weight: 600; }
+
+.roadmap { margin: 12px 0 4px; padding-left: 22px; }
+.roadmap li { margin: 10px 0; }
+.roadmap li::marker { color: var(--amber); font-weight: 700; }
+.roadmap strong { color: var(--amber); }
+.roadmap .stage-trophies { color: var(--ink-dim); font-size: 14px; }
+
+.controls { display: flex; flex-direction: column; gap: 12px; }
+.control-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
+.control { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--ink-dim); font-weight: 600; }
+.control input[type="search"], .control select {
+  background: #0f171b; color: var(--ink); border: 1px solid var(--line);
+  border-radius: 8px; padding: 8px 10px; font: inherit; min-width: 150px;
+}
+.control input[type="search"] { min-width: 230px; }
+.control.check { flex-direction: row; align-items: center; gap: 8px; padding-bottom: 8px; color: var(--ink); }
+.control.check input { width: 18px; height: 18px; accent-color: var(--amber); }
+button, .import-btn {
+  background: var(--amber); color: #1a1206; border: none; border-radius: 8px;
+  padding: 9px 14px; font: inherit; font-weight: 700; cursor: pointer;
+}
+button:hover, .import-btn:hover { filter: brightness(1.08); }
+#resetBtn { background: transparent; color: var(--ink-dim); border: 1px solid var(--line); }
+.import-btn input { display: none; }
+.status { margin: 0; align-self: center; color: var(--teal); font-size: 14px; min-height: 1.2em; }
+.result-count { color: var(--ink-dim); font-size: 14px; margin: 4px 2px 12px; }
+
+.trophy-list { display: grid; gap: 12px; }
+.card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 16px; display: grid; grid-template-columns: auto 1fr; gap: 6px 14px;
+}
+.card.earned { border-color: var(--teal); background: var(--panel-2); }
+.card.missable-flag { border-left: 4px solid var(--danger); }
+.tick { width: 26px; height: 26px; margin-top: 4px; accent-color: var(--teal); cursor: pointer; }
+.card-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+.card-head h3 { margin: 0; font-size: 19px; }
+.badge { font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; border-radius: 999px; padding: 3px 9px; white-space: nowrap; }
+.badge.platinum { background: var(--platinum); color: #12303a; }
+.badge.gold { background: var(--gold); color: #241a05; }
+.badge.silver { background: var(--silver); color: #1d2126; }
+.badge.bronze { background: var(--bronze); color: #241407; }
+.badge.kind { background: transparent; border: 1px solid var(--line); color: var(--ink-dim); }
+.badge.missable { background: var(--danger); color: #fff; }
+.official { grid-column: 2; margin: 0; color: var(--ink-dim); font-style: italic; }
+.count-line { grid-column: 2; margin: 0; font-size: 13px; color: var(--teal); font-weight: 600; }
+.guide { grid-column: 2; margin: 4px 0 0; }
+.guide summary { cursor: pointer; font-weight: 700; color: var(--amber); }
+.guide p { margin: 8px 0 0; }
+.guide .source { font-size: 13px; color: var(--ink-dim); border-top: 1px dashed var(--line); padding-top: 6px; }
+.hidden-story { grid-column: 2; color: var(--ink-dim); font-style: italic; }
+.empty { text-align: center; color: var(--ink-dim); padding: 32px 0; }
+
+.sources { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 18px; color: var(--ink-dim); }
+.sources h2 { color: var(--ink); font-size: 19px; }
+.small { font-size: 13px; }
+@media (max-width: 640px) {
+  h1 { font-size: 32px; }
+  .card { grid-template-columns: auto 1fr; }
+}
