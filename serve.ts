@@ -1,64 +1,54 @@
-// Leonida Legend — a tiny static server for local testing only.
-// `node serve.ts` serves app/ on http://localhost:8080 (or `--port <n>`).
-// It sends the MIME types a browser needs, refuses paths outside app/,
-// and is not a web server for the internet.
-import { createReadStream, statSync } from 'node:fs';
+// Tiny static file server for the Leonida Legend II guide.
+// Serves this directory's app/ folder on 127.0.0.1:8080 by default.
+// Usage: node serve.ts [--port 8080]
+// Node 22, standard library only — no dependencies.
+
 import { createServer } from 'node:http';
-import { extname, join, normalize, resolve, sep } from 'node:path';
+import { readFileSync, existsSync, statSync } from 'node:fs';
+import { join, resolve, extname, normalize } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const root = resolve(fileURLToPath(new URL('./app', import.meta.url)));
+const here = fileURLToPath(new URL('.', import.meta.url));
+const appDir = resolve(join(here, 'app'));
+
 const args = process.argv.slice(2);
-const portIndex = args.indexOf('--port');
-const requested = portIndex === -1 ? 8080 : Number(args[portIndex + 1]);
-const port = Number.isInteger(requested) && requested > 0 && requested < 65536 ? requested : 8080;
+let port = 8080;
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '--port' && args[i + 1]) port = Number(args[i + 1]);
+}
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
-  '.mjs': 'text/javascript; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
-  '.svg': 'image/svg+xml',
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
-  '.webp': 'image/webp',
+  '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon',
-  '.woff2': 'font/woff2',
-  '.webmanifest': 'application/manifest+json',
 };
 
-createServer((request, response) => {
-  const url = new URL(request.url ?? '/', 'http://localhost');
-  let pathname;
-  try {
-    pathname = decodeURIComponent(url.pathname);
-  } catch {
-    response.writeHead(400).end('bad request');
+const server = createServer((req, res) => {
+  const rawPath = decodeURIComponent(new URL(req.url || '/', 'http://127.0.0.1').pathname);
+  const cleaned = normalize(rawPath).replace(/^(\.\.[/\\])+/, '');
+  const target = join(appDir, cleaned === '/' ? 'index.html' : cleaned);
+  // Guard against path traversal: the resolved target must stay inside app/.
+  if (!target.startsWith(appDir)) {
+    res.writeHead(403, { 'content-type': 'text/plain; charset=utf-8' });
+    res.end('Forbidden');
     return;
   }
-  if (pathname.endsWith('/')) pathname += 'index.html';
-  const file = resolve(join(root, normalize(pathname)));
-  if (file !== root && !file.startsWith(root + sep)) {
-    response.writeHead(403).end('forbidden');
+  if (!existsSync(target) || !statSync(target).isFile()) {
+    res.writeHead(404, { 'content-type': 'text/plain; charset=utf-8' });
+    res.end('Not found');
     return;
   }
-  let size;
-  try {
-    const stats = statSync(file);
-    if (!stats.isFile()) throw new Error('not a file');
-    size = stats.size;
-  } catch {
-    response.writeHead(404).end('not found');
-    return;
-  }
-  response.writeHead(200, {
-    'content-type': MIME[extname(file).toLowerCase()] ?? 'application/octet-stream',
-    'content-length': size,
-    'cache-control': 'no-store',
-  });
-  createReadStream(file).pipe(response);
-}).listen(port, '127.0.0.1', () => {
-  console.log(`Leonida Legend is on http://localhost:${port}`);
+  const body = readFileSync(target);
+  res.writeHead(200, { 'content-type': MIME[extname(target)] || 'application/octet-stream' });
+  res.end(body);
+});
+
+server.listen(port, '127.0.0.1', () => {
+  console.log(`Leonida Legend II guide at http://127.0.0.1:${port}/`);
 });
