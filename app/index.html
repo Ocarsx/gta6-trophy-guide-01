@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="An offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI, with a roadmap to the platinum.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+    <h1>Leonida Legend</h1>
+    <p class="tagline">Every trophy, its official description, and a guide in our own words — with a tracker that remembers your progress offline.</p>
+    <div class="progress-wrap" aria-label="Trophy progress">
+      <div class="progress-bar"><span id="progressFill"></span></div>
+      <p class="progress-text"><strong id="progressCount">0 of 55 earned</strong> <span id="progressPercent">0%</span> &middot; <span id="progressRemaining">55 to go</span></p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="panel" id="roadmapPanel" aria-labelledby="roadmapHeading">
+    <h2 id="roadmapHeading">Roadmap to the platinum</h2>
+    <p class="panel-note">Built only from the official trophy descriptions. Play the story first, then the side strands, then activities and collectibles, and finish with the grind trophies. The platinum, <em>Vice Got a Price!</em>, pops when the other 54 are earned.</p>
+    <ol class="roadmap" id="roadmap"></ol>
+    <p class="panel-note" id="missableNote"></p>
+  </section>
+
+  <section class="panel controls" aria-label="Filters and progress tools">
+    <div class="control-row">
+      <label class="control">Search <input id="search" type="search" placeholder="Search name or description&hellip;" autocomplete="off"></label>
+      <label class="control">Grade
+        <select id="gradeFilter">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label class="control">Kind
+        <select id="kindFilter">
+          <option value="all">All kinds</option>
+          <option value="story">Story</option>
+          <option value="mission">Story missions</option>
+          <option value="side">Side strands</option>
+          <option value="activity">Activities</option>
+          <option value="collectible">Collectibles</option>
+          <option value="exploration">Exploration</option>
+          <option value="combat">Combat &amp; crime</option>
+          <option value="misc">Miscellaneous</option>
+        </select>
+      </label>
+      <label class="control">Show
+        <select id="earnedFilter">
+          <option value="all">All trophies</option>
+          <option value="earned">Earned only</option>
+          <option value="remaining">Not yet earned</option>
+        </select>
+      </label>
+      <label class="control check"><input id="missableOnly" type="checkbox"> Missable only</label>
+      <label class="control check"><input id="spoilerToggle" type="checkbox"> Spoiler mode: hide story trophies until earned</label>
+    </div>
+    <div class="control-row">
+      <button id="exportBtn" type="button">Export progress (JSON)</button>
+      <label class="import-btn">Import progress <input id="importFile" type="file" accept="application/json,.json"></label>
+      <button id="resetBtn" type="button">Clear all ticks</button>
+      <p class="status" id="statusLine" role="status"></p>
+    </div>
+  </section>
+
+  <p class="result-count" id="resultCount"></p>
+  <section class="trophy-list" id="trophyList" aria-live="polite"></section>
+
+  <footer class="sources">
+    <h2>Sources &amp; honesty note</h2>
+    <p>Every trophy's name, description and grade are the official PlayStation list, as published on PSNProfiles and Exophase. Counts (for example 42 Shooting Range challenges, 18 meditation spots, 52 areas of Leonida) are the counts the official list tracks, as those sites publish them. Each guide is written in our own words for this guide and cites the official description beside it. GTA VI releases 19 November 2026: where a method is not publicly known yet, the guide says so honestly instead of inventing a mission name or a location. No Rockstar Games logo, artwork or game screenshot is used anywhere in this guide; the look is our own.</p>
+    <p class="small">Works fully offline — no network requests. Progress is saved in your browser (localStorage) on this device only.</p>
+  </footer>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
