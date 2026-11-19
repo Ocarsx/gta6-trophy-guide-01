@@ -1,85 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
-<meta name="description" content="An offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI, with a roadmap to the platinum.">
+<title>Leonida Legend II — GTA VI Trophy Guide &amp; Tracker</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="masthead">
   <div class="masthead-inner">
-    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
-    <h1>Leonida Legend</h1>
-    <p class="tagline">Every trophy, its official description, and a guide in our own words — with a tracker that remembers your progress offline.</p>
-    <div class="progress-wrap" aria-label="Trophy progress">
-      <div class="progress-bar"><span id="progressFill"></span></div>
-      <p class="progress-text"><strong id="progressCount">0 of 55 earned</strong> <span id="progressPercent">0%</span> &middot; <span id="progressRemaining">55 to go</span></p>
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; Unofficial fan guide</p>
+    <h1>Leonida Legend <span class="two">II</span></h1>
+    <p class="subtitle">The complete GTA VI trophy guide &amp; tracker — all 55 trophies, step-by-step guidance with named sources, a platinum roadmap, and a checklist that remembers your progress.</p>
+    <div class="progress-wrap" aria-label="Overall progress">
+      <div class="progress-line"><span id="progressText">0 of 55 earned</span><span id="progressPct">0%</span></div>
+      <div class="progress-bar"><div id="progressFill" class="progress-fill" style="width:0%"></div></div>
+      <p class="progress-sub" id="progressSub">1 platinum &middot; 2 gold &middot; 6 silver &middot; 46 bronze</p>
     </div>
   </div>
 </header>
 
 <main>
-  <section class="panel" id="roadmapPanel" aria-labelledby="roadmapHeading">
-    <h2 id="roadmapHeading">Roadmap to the platinum</h2>
-    <p class="panel-note">Built only from the official trophy descriptions. Play the story first, then the side strands, then activities and collectibles, and finish with the grind trophies. The platinum, <em>Vice Got a Price!</em>, pops when the other 54 are earned.</p>
-    <ol class="roadmap" id="roadmap"></ol>
-    <p class="panel-note" id="missableNote"></p>
-  </section>
-
-  <section class="panel controls" aria-label="Filters and progress tools">
+  <section class="controls" aria-label="Tracker controls">
     <div class="control-row">
-      <label class="control">Search <input id="search" type="search" placeholder="Search name or description&hellip;" autocomplete="off"></label>
-      <label class="control">Grade
+      <label class="search-box">
+        <span class="visually-hidden">Search trophies</span>
+        <input id="search" type="search" placeholder="Search trophy name, mission or keyword…" autocomplete="off">
+      </label>
+      <label>Grade
         <select id="gradeFilter">
-          <option value="all">All grades</option>
+          <option value="">All grades</option>
           <option value="platinum">Platinum</option>
           <option value="gold">Gold</option>
           <option value="silver">Silver</option>
           <option value="bronze">Bronze</option>
         </select>
       </label>
-      <label class="control">Kind
-        <select id="kindFilter">
-          <option value="all">All kinds</option>
+      <label>Category
+        <select id="categoryFilter">
+          <option value="">All categories</option>
           <option value="story">Story</option>
-          <option value="mission">Story missions</option>
-          <option value="side">Side strands</option>
-          <option value="activity">Activities</option>
+          <option value="missable">Missable — do first</option>
           <option value="collectible">Collectibles</option>
-          <option value="exploration">Exploration</option>
-          <option value="combat">Combat &amp; crime</option>
-          <option value="misc">Miscellaneous</option>
+          <option value="activity">Activities</option>
+          <option value="misc">Other</option>
         </select>
       </label>
-      <label class="control">Show
-        <select id="earnedFilter">
-          <option value="all">All trophies</option>
-          <option value="earned">Earned only</option>
-          <option value="remaining">Not yet earned</option>
-        </select>
-      </label>
-      <label class="control check"><input id="missableOnly" type="checkbox"> Missable only</label>
-      <label class="control check"><input id="spoilerToggle" type="checkbox"> Spoiler mode: hide story trophies until earned</label>
+      <label class="check"><input id="hideEarned" type="checkbox"> Hide earned</label>
+      <label class="check"><input id="missableOnly" type="checkbox"> Missable only</label>
+      <label class="check spoiler"><input id="spoilerToggle" type="checkbox"> Spoiler-safe mode</label>
     </div>
     <div class="control-row">
       <button id="exportBtn" type="button">Export progress (JSON)</button>
-      <label class="import-btn">Import progress <input id="importFile" type="file" accept="application/json,.json"></label>
-      <button id="resetBtn" type="button">Clear all ticks</button>
-      <p class="status" id="statusLine" role="status"></p>
+      <button id="importBtn" type="button">Import progress</button>
+      <input id="importFile" type="file" accept=".json,application/json" class="visually-hidden">
+      <button id="resetBtn" type="button" class="danger">Reset progress</button>
+      <span id="statusMsg" class="status" role="status"></span>
+    </div>
+    <p class="hint">Spoiler-safe mode hides story trophies you have not earned yet. Progress is saved in this browser only (localStorage) — export a backup before clearing browser data. Deep links: <code>?view=roadmap</code>, <code>?detail=&lt;id&gt;</code>, <code>?grade=&lt;grade&gt;</code>.</p>
+  </section>
+
+  <section id="roadmap" class="roadmap" aria-label="Roadmap to the platinum">
+    <h2>Roadmap to the Platinum</h2>
+    <p class="roadmap-intro">No difficulty trophy, and nothing is permanently missable after the story if you keep a save before the final mission — but the partner trophies are far easier while your partner is available. Follow the phases in order and you will not have to replay the story.</p>
+    <ol class="phases">
+      <li>
+        <h3>Phase 1 — Story first (Chapters 1–4)</h3>
+        <p>Play the story straight through. All 18 story trophies unlock naturally, including the four chapter trophies and the final-mission gold. While you play, do the <strong>missable-flagged partner trophies</strong> (Hot Together, Retail Therapy) as soon as your partner is beside you, and sample each of the 9 activity types for Master of None.</p>
+      </li>
+      <li>
+        <h3>Phase 2 — Contacts &amp; strangers</h3>
+        <p>Finish the mission chains for Andy, Kenton, Billy, Randy and Tyrone, plus 8 Strangers &amp; Freaks strands. Check the map for their icons after every chapter — new missions unlock between chapters.</p>
+      </li>
+      <li>
+        <h3>Phase 3 — The big map sweep</h3>
+        <p>One systematic sweep of Leonida covers four trophies at once: explore all 52 areas, WAiNK It at 100 locations, meditate at all 18 spots, and hunt Collectible Cards region by region. Register vehicles in the Scooter Bros app as you find them.</p>
+      </li>
+      <li>
+        <h3>Phase 4 — Grinds &amp; clean-up</h3>
+        <p>Gold all 42 Shooting Range challenges, win 20 different races and the 14 drone races, pull off 250 stunts, rob 5 Bank Vaults, and finish the 50 challenges. Then check the in-game completion screen and mop up whatever 100% still needs.</p>
+      </li>
+      <li>
+        <h3>Phase 5 — Platinum</h3>
+        <p>Earn the last remaining trophy and <strong>Vice Got a Price!</strong> pops automatically. Estimated total: 80+ hours for a first-time completionist.</p>
+      </li>
+    </ol>
+    <div class="missable-callout">
+      <h3>Missable watch-list — do these during the story</h3>
+      <p id="missableList">Loading…</p>
     </div>
   </section>
 
-  <p class="result-count" id="resultCount"></p>
-  <section class="trophy-list" id="trophyList" aria-live="polite"></section>
+  <section aria-label="Trophy list">
+    <div class="list-head">
+      <h2 id="listTitle">All 55 trophies</h2>
+      <p id="countLine" class="count-line"></p>
+    </div>
+    <div id="trophyList" class="trophy-list"></div>
+    <p id="emptyMsg" class="empty" hidden>No trophies match your filters. Clear the search or change a filter.</p>
+  </section>
 
-  <footer class="sources">
-    <h2>Sources &amp; honesty note</h2>
-    <p>Every trophy's name, description and grade are the official PlayStation list, as published on PSNProfiles and Exophase. Counts (for example 42 Shooting Range challenges, 18 meditation spots, 52 areas of Leonida) are the counts the official list tracks, as those sites publish them. Each guide is written in our own words for this guide and cites the official description beside it. GTA VI releases 19 November 2026: where a method is not publicly known yet, the guide says so honestly instead of inventing a mission name or a location. No Rockstar Games logo, artwork or game screenshot is used anywhere in this guide; the look is our own.</p>
-    <p class="small">Works fully offline — no network requests. Progress is saved in your browser (localStorage) on this device only.</p>
-  </footer>
+  <section id="detail" class="detail" aria-label="Trophy detail" hidden>
+    <button id="detailClose" type="button" class="detail-close">Close detail</button>
+    <div id="detailBody"></div>
+  </section>
 </main>
+
+<footer>
+  <p>Leonida Legend II is an unofficial fan-made guide. Not affiliated with Rockstar Games or PlayStation. Trophy names, descriptions and grades follow the official PlayStation trophy list. Guidance is written in our own words; named sources are credited per trophy (PowerPyx trophy guide, PSNProfiles, IGN GTA VI wiki, TrueTrophies, official PlayStation trophy list). No official artwork or logos are used. Works fully offline — no network requests.</p>
+</footer>
+
 <script type="module" src="app.js"></script>
 </body>
 </html>
