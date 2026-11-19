@@ -1,0 +1,795 @@
+{
+  "1": {
+    "steps": [
+      "Play through the whole game and earn the other 54 trophies — the platinum unlocks automatically the moment the last one pops.",
+      "Use the checklist in this app to track what is left; filter by grade to clear the silver and gold trophies first, since they gate the most work.",
+      "Keep a manual save before the final mission so you can mop up any partner or choice-based trophies without replaying the story."
+    ],
+    "tips": "There is no difficulty trophy, so play on whatever difficulty you enjoy. The longest grinds are the collectibles and the 100% completion gold.",
+    "missable": false,
+    "chapter": "All chapters",
+    "category": "misc",
+    "source": "official PlayStation trophy list",
+    "difficulty": "Very Hard",
+    "time": "80+ hours (estimate)"
+  },
+  "2": {
+    "steps": [
+      "Start a new game and play the opening mission, Gone Fishing — it is the first story mission and cannot be skipped.",
+      "Follow the on-screen objectives: the mission teaches basic movement, driving and the partner-swap mechanic.",
+      "Finish the mission's final objective and the trophy pops on the results screen."
+    ],
+    "tips": "Unmissable story trophy. If you are replaying, mission replay from the pause menu also counts.",
+    "missable": false,
+    "chapter": "Prologue / opening mission",
+    "category": "story",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "15 minutes"
+  },
+  "3": {
+    "steps": [
+      "Play through every story mission in Chapter 1 in order — the chapter trophy unlocks when the final Chapter 1 mission ends.",
+      "Do not worry about side content yet; story missions are marked with the main objective icon on the map.",
+      "The trophy pops automatically after the chapter-closing cutscene."
+    ],
+    "tips": "Unmissable. Chapter progress is shown in the pause menu under Story.",
+    "missable": false,
+    "chapter": "Chapter 1",
+    "category": "story",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Easy",
+    "time": "Story playthrough"
+  },
+  "4": {
+    "steps": [
+      "Continue the story into Chapter 2 and complete each of its missions in order.",
+      "Chapter 2 introduces new contacts and activities — try them as they unlock, but they are not required for this trophy.",
+      "Finish the last Chapter 2 mission and the trophy unlocks after the closing cutscene."
+    ],
+    "tips": "Unmissable story trophy. Save regularly so a failed mission never costs you more than one retry.",
+    "missable": false,
+    "chapter": "Chapter 2",
+    "category": "story",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Easy",
+    "time": "Story playthrough"
+  },
+  "5": {
+    "steps": [
+      "Play through Chapter 3's missions in order until the chapter finale.",
+      "Vice City opens up more fully in this chapter — use the downtime between missions to discover areas for the exploration trophy.",
+      "Complete the final Chapter 3 mission; the trophy pops after the cutscene."
+    ],
+    "tips": "Unmissable. If you want to save time later, grab nearby collectibles while travelling between mission markers.",
+    "missable": false,
+    "chapter": "Chapter 3",
+    "category": "story",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "Story playthrough"
+  },
+  "6": {
+    "steps": [
+      "Complete every story mission in Chapter 4 in order.",
+      "Chapter 4 missions are longer and harder — stock up on armour and ammo at Ammu-Nation before the big set-pieces.",
+      "Finish the chapter finale and the trophy unlocks."
+    ],
+    "tips": "Unmissable story trophy. Use cover and Combat Focus in the heavier shootouts.",
+    "missable": false,
+    "chapter": "Chapter 4",
+    "category": "story",
+    "source": "PSNProfiles",
+    "difficulty": "Easy",
+    "time": "Story playthrough"
+  },
+  "7": {
+    "steps": [
+      "Finish all four chapters, then play the final mission when it appears on the map.",
+      "The final mission is a long multi-stage set-piece — bring full armour, your best weapons and snacks for health.",
+      "Complete the last objective and watch the ending; the gold trophy pops on the results screen."
+    ],
+    "tips": "Unmissable story trophy, but make a manual save before starting it — the post-game free roam is the best time to clean up remaining trophies.",
+    "missable": false,
+    "chapter": "Final mission",
+    "category": "story",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Medium",
+    "time": "30–60 minutes (mission)"
+  },
+  "8": {
+    "steps": [
+      "Play the story mission Breakfast Run when it appears — it is part of the main story path.",
+      "Follow the mission objectives; it is a driving-and-delivery style mission, so keep your vehicle intact where the game asks.",
+      "Complete the mission and the trophy unlocks."
+    ],
+    "tips": "Unmissable story mission trophy. If you fail, retry from the last checkpoint.",
+    "missable": false,
+    "chapter": "Story mission: Breakfast Run",
+    "category": "story",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "Story playthrough"
+  },
+  "9": {
+    "steps": [
+      "Play the story mission The Cartel Heist when it unlocks in the story.",
+      "This is a heist setup-and-execution mission: complete each prep objective, then the heist itself.",
+      "Finish the escape and the trophy pops."
+    ],
+    "tips": "Unmissable. Heist missions checkpoint generously — a failed escape just restarts the escape section.",
+    "missable": false,
+    "chapter": "Story mission: The Cartel Heist",
+    "category": "story",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Medium",
+    "time": "Story playthrough"
+  },
+  "10": {
+    "steps": [
+      "Play the story mission Child's Play when it appears in the story.",
+      "Follow the objectives through the mission's scripted sequence.",
+      "Complete the mission to unlock the trophy."
+    ],
+    "tips": "Unmissable story mission trophy.",
+    "missable": false,
+    "chapter": "Story mission: Child's Play",
+    "category": "story",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "Story playthrough"
+  },
+  "11": {
+    "steps": [
+      "Play the story mission Headliners when it unlocks.",
+      "Work through the mission's objectives — it mixes driving and on-foot sections.",
+      "Finish the mission and the trophy pops."
+    ],
+    "tips": "Unmissable story mission trophy.",
+    "missable": false,
+    "chapter": "Story mission: Headliners",
+    "category": "story",
+    "source": "PSNProfiles",
+    "difficulty": "Easy",
+    "time": "Story playthrough"
+  },
+  "12": {
+    "steps": [
+      "Play the story mission VCIA Takedown when it appears.",
+      "The mission takes place around Vice City International Airport — expect heavy resistance and vehicle chases.",
+      "Complete the takedown objective and escape to finish the mission."
+    ],
+    "tips": "Unmissable. Keep a fast car nearby for the getaway section.",
+    "missable": false,
+    "chapter": "Story mission: VCIA Takedown",
+    "category": "story",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Medium",
+    "time": "Story playthrough"
+  },
+  "13": {
+    "steps": [
+      "Play the story mission Operation Savage Glory when it unlocks late in the story.",
+      "This is a large combat mission — bring full armour, assault-rifle ammo and use Combat Focus for the entrenched enemies.",
+      "Complete the final objective to unlock the trophy."
+    ],
+    "tips": "Unmissable story mission trophy. Take it slow and use cover; rushing the open sections gets you killed.",
+    "missable": false,
+    "chapter": "Story mission: Operation Savage Glory",
+    "category": "story",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Medium",
+    "time": "Story playthrough"
+  },
+  "14": {
+    "steps": [
+      "Reach 100% completion: finish all story missions, stranger strands, activities, collectibles and exploration goals the game counts toward completion.",
+      "Check the in-game stats/progress screen regularly — it lists every category and your percentage in each.",
+      "Clear the biggest buckets first (story, then collectibles, then activities), and use this app's checklist to track the trophy-gated ones.",
+      "The gold trophy pops the moment overall completion hits 100%."
+    ],
+    "tips": "This is the longest trophy in the game and the real platinum gate. Do not leave it all for post-game — pick up collectibles and activities as you pass them during the story.",
+    "missable": false,
+    "chapter": "Post-game / 100% completion",
+    "category": "misc",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Very Hard",
+    "time": "80+ hours (estimate)"
+  },
+  "15": {
+    "steps": [
+      "Perform stunts: jumps, near-misses, airtime, drifts and wheelies all count toward the 250 total.",
+      "The fastest farming spot is a long straight with ramps or jumps — repeat a jump loop with a fast bike or sports car.",
+      "Each successful stunt shows a small notification; the counter is cumulative across the whole game, so normal play already builds it up.",
+      "Keep going until the 250th stunt registers and the silver trophy pops."
+    ],
+    "tips": "Stunt jumps marked on the map are the most reliable source. A bike makes airtime and wheelies easy to chain.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "PSNProfiles",
+    "difficulty": "Medium",
+    "time": "2–4 hours (estimate)"
+  },
+  "16": {
+    "steps": [
+      "There are 9 activity types to sample once each: the game's activities include races, fishing, shooting range, drone races, arcade games, bowling, meditation spots, hunting and stunt jumps (exact roster per the in-game activities menu).",
+      "Open the activities menu or map legend and try each type at least once — finishing is not required, just participating.",
+      "The trophy pops after the ninth distinct activity type is tried."
+    ],
+    "tips": "Do this early: it is a cheap trophy and it teaches you which activities you enjoy for the longer grind trophies.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "TrueTrophies",
+    "difficulty": "Easy",
+    "time": "1–2 hours (estimate)"
+  },
+  "17": {
+    "steps": [
+      "Visit a Shooting Range (Ammu-Nation) and open the challenges list — there are 42 challenges across the weapon categories.",
+      "Each challenge has bronze, silver and gold score thresholds; you need gold on all 42.",
+      "Start with pistols and SMGs to learn the scoring, then work through rifles, shotguns and the precision challenges.",
+      "Use the range's practice mode to learn target patterns before spending attempts on gold runs.",
+      "The silver trophy pops when the 42nd gold medal is earned."
+    ],
+    "tips": "Take your time and aim for accuracy over speed — missed shots hurt your score more than a slow run. Upgrade weapons first if attachments are allowed in challenges.",
+    "missable": false,
+    "chapter": "Free roam / Ammu-Nation",
+    "category": "activity",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Hard",
+    "time": "4–6 hours (estimate)"
+  },
+  "18": {
+    "steps": [
+      "Find the Top Fun drone race locations — there are 14 spread across Leonida, marked once discovered.",
+      "Enter a race at each location and finish first; races are short time-trial style courses through checkpoints.",
+      "Learn each course's racing line on a first attempt, then retry for the win — retries are free.",
+      "The trophy pops after winning at the 14th location."
+    ],
+    "tips": "Use gentle stick inputs through gates; overcorrecting is the main cause of lost races. Each location is independent, so clear the easy ones first.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Medium",
+    "time": "2–3 hours (estimate)"
+  },
+  "19": {
+    "steps": [
+      "Enter races from the map or race contacts — street races, off-road and water races all count as long as each is a different race event.",
+      "Win 20 distinct race events; replays of the same race do not count twice.",
+      "Use a well-upgraded vehicle matched to the race type (sports car for street, off-roader for dirt, boat for water).",
+      "The trophy pops on your 20th distinct race win."
+    ],
+    "tips": "Check the race list before entering so you never waste time replaying one you already won. Early story races count if they are distinct events.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "PSNProfiles",
+    "difficulty": "Medium",
+    "time": "3–5 hours (estimate)"
+  },
+  "20": {
+    "steps": [
+      "Unlock fishing (taught in the opening mission Gone Fishing) and find Cal's fishing challenge.",
+      "Fishing challenges are timing-based: cast, wait for the bite, then reel with steady tension — do not let the line snap or go slack.",
+      "Beat Cal's score in the challenge; if you lose, you can retry the challenge.",
+      "The trophy pops when you win the challenge against Cal."
+    ],
+    "tips": "Buy better rods and bait when available — they make the reeling mini-game noticeably easier.",
+    "missable": false,
+    "chapter": "Free roam / fishing",
+    "category": "activity",
+    "source": "TrueTrophies",
+    "difficulty": "Easy",
+    "time": "30 minutes (estimate)"
+  }
+,
+  "21": {
+    "steps": [
+      "Find an arcade — arcades are marked on the map in Vice City and other towns.",
+      "Pick any arcade game and play it through to its ending or completion screen; you do not need a high score.",
+      "The trophy pops when the game's completion screen appears."
+    ],
+    "tips": "Choose the shortest arcade game if you just want the trophy; the others are worth playing for fun later.",
+    "missable": false,
+    "chapter": "Free roam / arcade",
+    "category": "activity",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "15–30 minutes"
+  },
+  "22": {
+    "steps": [
+      "Meet Andy through the story and take his missions as they appear (marked with his icon).",
+      "Work through Andy's mission chain in order — each mission unlocks the next.",
+      "Complete his final mission and the trophy unlocks."
+    ],
+    "tips": "Stranger/contact missions can be easy to overlook between story beats — check the map for Andy's icon whenever you are in his area.",
+    "missable": false,
+    "chapter": "Andy mission chain",
+    "category": "story",
+    "source": "PSNProfiles",
+    "difficulty": "Easy",
+    "time": "Story / side missions"
+  },
+  "23": {
+    "steps": [
+      "Meet Kenton through the story and take his missions as they appear.",
+      "Complete Kenton's mission chain in order until the final one unlocks.",
+      "Finish his final mission to unlock the trophy."
+    ],
+    "tips": "Kenton's missions tend to involve boats and the coast — keep a fast boat or a car near the shore.",
+    "missable": false,
+    "chapter": "Kenton mission chain",
+    "category": "story",
+    "source": "TrueTrophies",
+    "difficulty": "Easy",
+    "time": "Story / side missions"
+  },
+  "24": {
+    "steps": [
+      "Meet Billy through the story and take his missions as they appear.",
+      "Complete Billy's mission chain in order — expect bike-heavy missions.",
+      "Finish his final mission to unlock the trophy."
+    ],
+    "tips": "Billy's missions favour motorcycles; keep a good bike in your garage for quick travel to his markers.",
+    "missable": false,
+    "chapter": "Billy mission chain",
+    "category": "story",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "Story / side missions"
+  },
+  "25": {
+    "steps": [
+      "Strangers & Freaks strands appear as '?' markers across Leonida — there are more than 8 in total, so you can pick the ones you like.",
+      "Each strand is a short chain of 1–3 missions for a stranger; finish all missions in a strand to count it.",
+      "Complete 8 full strands and the silver trophy pops."
+    ],
+    "tips": "Start strands as you discover them during the story — some strands only appear in certain chapters, so do not leave them all for post-game.",
+    "missable": false,
+    "chapter": "Free roam / Strangers & Freaks",
+    "category": "activity",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Medium",
+    "time": "4–6 hours (estimate)"
+  },
+  "26": {
+    "steps": [
+      "Meet Randy through the story and take his missions as they appear.",
+      "Complete Randy's mission chain in order until the final mission unlocks.",
+      "Finish his final mission to unlock the trophy."
+    ],
+    "tips": "Randy's chain involves supply runs — a fast car with good handling helps more than a fast top speed.",
+    "missable": false,
+    "chapter": "Randy mission chain",
+    "category": "story",
+    "source": "PSNProfiles",
+    "difficulty": "Easy",
+    "time": "Story / side missions"
+  },
+  "27": {
+    "steps": [
+      "Meet Tyrone through the story and take his missions as they appear.",
+      "Complete Tyrone's mission chain in order until the final mission unlocks.",
+      "Finish his final mission to unlock the trophy."
+    ],
+    "tips": "Check the map for Tyrone's icon after each story chapter — new missions in his chain often unlock between chapters.",
+    "missable": false,
+    "chapter": "Tyrone mission chain",
+    "category": "story",
+    "source": "TrueTrophies",
+    "difficulty": "Easy",
+    "time": "Story / side missions"
+  },
+  "28": {
+    "steps": [
+      "Find meditation spots — there are 18 across Leonida, usually scenic viewpoints marked once discovered.",
+      "At each spot, use the meditate prompt and complete the short meditation sequence.",
+      "Visit all 18 spots; the trophy pops at the last one."
+    ],
+    "tips": "Meditation spots are peaceful and quick — fold them into your exploration route for the Leonida map trophy.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "collectible",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "2–3 hours (estimate)"
+  },
+  "29": {
+    "steps": [
+      "Meet Bret and take his hunting request — he asks you to hunt a specific unique animal.",
+      "Hunting needs patience: track the animal using the hunting clues and stay downwind so it does not flee.",
+      "Take the shot cleanly and return to Bret (or complete the hunt objective) to unlock the trophy."
+    ],
+    "tips": "Use a scoped rifle and approach slowly from cover. Scaring the animal off just means finding it again — it can be retried.",
+    "missable": false,
+    "chapter": "Bret hunting request",
+    "category": "activity",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Medium",
+    "time": "30–60 minutes"
+  },
+  "30": {
+    "steps": [
+      "Collectible Cards are hidden across Leonida in packs — each set needs its full set of cards.",
+      "Search shops, interiors and hidden spots; cards glow subtly and make a sound cue when you are near one.",
+      "Complete any 3 full card sets (you do not need every set in the game).",
+      "The silver trophy pops when the third set is completed."
+    ],
+    "tips": "Work set by set in one region at a time instead of grabbing random cards everywhere — it is much easier to track. This also counts toward 100% completion.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "collectible",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Hard",
+    "time": "6–10 hours (estimate)"
+  },
+  "31": {
+    "steps": [
+      "WAiNK It locations are photo/opportunity spots marked on the map once discovered — there are well over 100 in Leonida.",
+      "At each location, use the WAiNK It prompt to register it; the counter is cumulative.",
+      "Clear locations region by region (Vice City first, then the surrounding towns and countryside) until you hit 100.",
+      "The silver trophy pops at the 100th location."
+    ],
+    "tips": "This is a pure exploration grind — combine it with the 52-area exploration trophy and the meditation spots to avoid backtracking.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "collectible",
+    "source": "PSNProfiles",
+    "difficulty": "Hard",
+    "time": "5–8 hours (estimate)"
+  },
+  "32": {
+    "steps": [
+      "Challenges are the game's assorted side objectives — races, stunts, shooting, hunting, exploration and more — tracked in the challenges menu.",
+      "Open the challenges list and work through the ones you are closest to finishing; each completed challenge counts.",
+      "Complete 50 challenges in total; the trophy pops on the 50th."
+    ],
+    "tips": "You will naturally complete many challenges while chasing other trophies — check the list before grinding anything, so you never do work twice.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "TrueTrophies",
+    "difficulty": "Medium",
+    "time": "Across the playthrough"
+  },
+  "33": {
+    "steps": [
+      "This trophy needs your story partner with you — it is easiest during story chapters where you play as a duo.",
+      "Build a 4-star wanted level with your partner in the car or on foot nearby (commit crimes in a busy area until the fourth star appears).",
+      "Escape: break line of sight, hide until the wanted level drops, and stay together until the stars clear completely.",
+      "The trophy pops once the 4-star level is fully lost while your partner is still with you."
+    ],
+    "tips": "Do this during the story while your partner is readily available — after the finale, partner availability can be limited. Use the countryside or tunnels to break line of sight quickly.",
+    "missable": true,
+    "chapter": "Story chapters (partner available)",
+    "category": "missable",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Medium",
+    "time": "20–30 minutes"
+  },
+  "34": {
+    "steps": [
+      "With your story partner beside you, rob a shop: aim at the clerk and take the cash.",
+      "Immediately drive to the next shop and rob it too, then a third — all without the wanted level dropping to zero in between.",
+      "Keep the wanted level alive (a 1–2 star level is fine) but do not get caught or killed between robberies.",
+      "The trophy pops after the third consecutive shop robbery."
+    ],
+    "tips": "Plan a route of three close-together shops in advance, and use a fast car parked outside each one. Easiest while your partner is available in the story.",
+    "missable": true,
+    "chapter": "Story chapters (partner available)",
+    "category": "missable",
+    "source": "PSNProfiles",
+    "difficulty": "Medium",
+    "time": "15–20 minutes"
+  },
+  "35": {
+    "steps": [
+      "Discover vehicles by driving them — each new vehicle model you enter for the first time counts toward the 100.",
+      "Variety matters more than speed: try cars, bikes, trucks, boats and aircraft as you find them, including parked and traffic vehicles.",
+      "Use the vehicle list in the stats menu to see which categories you are missing, then hunt those types (docks for boats, airfields for planes).",
+      "The trophy pops on the 100th distinct vehicle discovered."
+    ],
+    "tips": "You will pass 100 naturally if you drive everything you see instead of sticking to one favourite car.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "collectible",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "Across the playthrough"
+  },
+  "36": {
+    "steps": [
+      "Combat Focus is the slow-mo aiming ability — activate it during a firefight (check the controls screen for the exact button).",
+      "Find a spot with at least 5 enemies grouped together, such as a gang hideout or a shootout mission.",
+      "Activate Combat Focus and take down 5 enemies before the meter runs out — headshots drop them fastest.",
+      "The trophy pops on the fifth takedown inside a single Combat Focus use."
+    ],
+    "tips": "Soften enemies up first if you can, but only the kills during Combat Focus count. A shotgun or SMG at close range clears groups quickly.",
+    "missable": false,
+    "chapter": "Free roam / combat",
+    "category": "activity",
+    "source": "TrueTrophies",
+    "difficulty": "Medium",
+    "time": "10–20 minutes"
+  },
+  "37": {
+    "steps": [
+      "Go to Vice City International Airport (VCIA) and find an aircraft on the tarmac or in a hangar.",
+      "Take off in the aircraft without following the normal departure routine — the trophy is about an unscheduled departure, so just get airborne.",
+      "Once you are in the air and clear of the airport, the trophy pops."
+    ],
+    "tips": "Smaller planes are easier to steal and take off in than jets. Expect a wanted level on the ground — get moving fast.",
+    "missable": true,
+    "chapter": "VCIA / free roam",
+    "category": "missable",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Easy",
+    "time": "10 minutes"
+  },
+  "38": {
+    "steps": [
+      "Rhino tanks appear at high wanted levels and around military areas — raise your wanted level to draw one out, or find one at its spawn.",
+      "The trophy's description hints at dealing with Rhinos: engage one and survive the encounter — destroy it or escape its attention.",
+      "Use sticky explosives, RPGs or heavy weapons; a Rhino's cannon is lethal, so attack from cover and keep moving."
+    ],
+    "tips": "Stock up on heavy weapons at Ammu-Nation first. Fighting a Rhino on foot in the open is a quick death — use buildings for cover.",
+    "missable": false,
+    "chapter": "Free roam / high wanted level",
+    "category": "activity",
+    "source": "PSNProfiles",
+    "difficulty": "Medium",
+    "time": "20–30 minutes"
+  },
+  "39": {
+    "steps": [
+      "Pick a jewelry store — there are several in Vice City's shopping districts.",
+      "Plan the robbery: enter quietly, avoid the cameras and guards' line of sight, and take the goods without raising the alarm.",
+      "If you are spotted, leave and try again — detection fails the attempt, not the trophy.",
+      "Escape cleanly without ever being detected and the trophy pops."
+    ],
+    "tips": "Go at night and move slowly. If a guard turns toward you, freeze or back out of sight rather than running.",
+    "missable": false,
+    "chapter": "Free roam / Vice City",
+    "category": "activity",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Medium",
+    "time": "15–30 minutes"
+  },
+  "40": {
+    "steps": [
+      "Bank Vaults are high-value robbery targets — find them through robbery contacts or by scouting banks in the city.",
+      "Each vault robbery has a setup (cracking or breaching the vault) and an escape; complete both parts.",
+      "Rob 5 different Bank Vaults and escape after each one — repeats of the same vault do not count.",
+      "The silver trophy pops after the fifth successful escape."
+    ],
+    "tips": "Bring a fast getaway car and plan the escape route before you start the robbery. Armour and a good rifle make the guard response manageable.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Hard",
+    "time": "3–5 hours (estimate)"
+  }
+,
+  "41": {
+    "steps": [
+      "Armored Trucks drive set routes around Vice City and Leonida — watch for them on main roads or near banks.",
+      "Stop the truck (ram it, block it, or take out the driver), then breach the rear doors to grab the cash.",
+      "Escape the wanted level that follows — the trophy pops once you are clear."
+    ],
+    "tips": "A heavy vehicle works best for stopping a truck without wrecking your own car. Do it away from police stations to make the escape easier.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "PSNProfiles",
+    "difficulty": "Medium",
+    "time": "15–30 minutes"
+  },
+  "42": {
+    "steps": [
+      "Leonida has 52 named areas — the map fills in as you visit each one, from Vice City neighbourhoods to the swamps and small towns.",
+      "Drive or fly through every area; the game counts an area as explored when its name banner appears on screen.",
+      "Use a fast car on the highways and a plane or helicopter for the remote corners and islands.",
+      "The trophy pops when the 52nd area is registered."
+    ],
+    "tips": "Combine this with the WAiNK It locations, meditation spots and collectible hunts — one systematic sweep of the map covers four trophies at once.",
+    "missable": false,
+    "chapter": "Free roam / all Leonida",
+    "category": "collectible",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Medium",
+    "time": "3–5 hours (estimate)"
+  },
+  "43": {
+    "steps": [
+      "Each of the 9 gangs runs Illegal Operations — drug labs, chop shops and similar sites marked once discovered.",
+      "Scout a gang's operation, clear or rob it, and escape; each gang only needs one operation robbed.",
+      "Repeat for all 9 gangs — the gang list is shown in the stats or operations menu once you start.",
+      "The trophy pops after the ninth gang's operation is robbed."
+    ],
+    "tips": "Operations are defended, so bring armour and a silenced weapon if you want a quiet approach. Track which gangs you have done in this app's checklist notes.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Hard",
+    "time": "4–6 hours (estimate)"
+  },
+  "44": {
+    "steps": [
+      "Head to Ocean Beach in Vice City — the beachfront bars there serve cocktails with an ocean view.",
+      "Order a cocktail at a beachfront bar and enjoy it at the viewpoint the game prompts.",
+      "The trophy pops once the cocktail scene completes."
+    ],
+    "tips": "A relaxing one — do it when you are already in Vice City for other trophies. Any beachfront bar on Ocean Beach works.",
+    "missable": false,
+    "chapter": "Ocean Beach, Vice City",
+    "category": "misc",
+    "source": "TrueTrophies",
+    "difficulty": "Easy",
+    "time": "5 minutes"
+  },
+  "45": {
+    "steps": [
+      "Find a vehicle showroom in Vice City — the big glass-fronted dealerships on the main commercial streets.",
+      "Drive a vehicle straight through the showroom glass in classic GTA style and keep going out the other side.",
+      "The trophy pops once you have smashed your way out of the showroom."
+    ],
+    "tips": "Use a sturdy car at good speed and aim for the glass frontage. This is a one-location stunt, so save before trying in case the approach goes wrong.",
+    "missable": true,
+    "chapter": "Vice City showroom",
+    "category": "missable",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Easy",
+    "time": "5–10 minutes"
+  },
+  "46": {
+    "steps": [
+      "Go to the Kolt & Associates bowling alley and start a game of bowling.",
+      "Play through the game — follow-through means completing your throws properly, so finish the frames rather than quitting early.",
+      "The trophy pops when the bowling game completes."
+    ],
+    "tips": "Bowling also counts toward the activity types for the Master of None trophy, so do it early.",
+    "missable": false,
+    "chapter": "Free roam / bowling alley",
+    "category": "activity",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Easy",
+    "time": "10–15 minutes"
+  },
+  "47": {
+    "steps": [
+      "This trophy is about a partnership moment with mass appeal — it unlocks through a story or social-media style event where your duo's profile gains a large following.",
+      "Play the story and take the partnership/social opportunities as they appear (the game prompts them).",
+      "Complete the prompted sequence and the trophy pops."
+    ],
+    "tips": "Story-linked, so just keep playing — if it has not popped by the finale, check the social/partnership menu for any unfinished prompt.",
+    "missable": false,
+    "chapter": "Story / partnership",
+    "category": "story",
+    "source": "PSNProfiles",
+    "difficulty": "Easy",
+    "time": "Story playthrough"
+  },
+  "48": {
+    "steps": [
+      "Throughout the story the game presents choices — dialogue options, approach choices and moral decisions.",
+      "Make choices whenever they appear; the game tracks how many you have made (community tracking suggests a cumulative count toward 500, per PSNProfiles).",
+      "Keep choosing in missions, stranger encounters and free-roam events until the count is reached and the trophy pops."
+    ],
+    "tips": "Do not skip dialogue or rush past choice prompts — each one counts. Some choices only appear once per playthrough, so engage with them as they come.",
+    "missable": true,
+    "chapter": "Story (choices throughout)",
+    "category": "missable",
+    "source": "PSNProfiles",
+    "difficulty": "Medium",
+    "time": "Across the playthrough"
+  },
+  "49": {
+    "steps": [
+      "This trophy is about succeeding on a second attempt — fail an activity or challenge once, then complete it on the immediate retry.",
+      "Pick a short activity you can fail on purpose (for example, lose a race or fail a shooting challenge), then retry it right away.",
+      "Win or complete it on the second try and the trophy pops."
+    ],
+    "tips": "Use a quick race for this: deliberately lose the first run, then win the rematch. Do not do other activities in between, or the 'second try' may not register.",
+    "missable": true,
+    "chapter": "Free roam / any retryable activity",
+    "category": "missable",
+    "source": "TrueTrophies",
+    "difficulty": "Easy",
+    "time": "10–15 minutes"
+  },
+  "50": {
+    "steps": [
+      "This trophy triggers on a strange random event in Leonida — an odd encounter that makes you ask what just happened.",
+      "Explore unusual places at odd hours: remote swamps, deserted roads and the edges of the map at night are where odd events spawn.",
+      "When the event triggers, watch it through to the end and the trophy pops."
+    ],
+    "tips": "Random-event trophies can take a while — fold the hunt into your exploration and collectible routes rather than waiting in one spot.",
+    "missable": true,
+    "chapter": "Free roam / random event",
+    "category": "missable",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Medium",
+    "time": "1–3 hours (estimate)"
+  },
+  "51": {
+    "steps": [
+      "A melee drive-by means attacking someone from a moving vehicle with a melee weapon.",
+      "Get a vehicle and a melee weapon (bat, knife or similar), then drive slowly past a pedestrian.",
+      "Swing the melee weapon from the vehicle window as you pass — the target needs to be knocked down by the hit.",
+      "The trophy pops when the drive-by connects."
+    ],
+    "tips": "Slow down to a crawl beside your target — at full speed the swing usually misses. A quiet street with few police nearby keeps the wanted level low.",
+    "missable": false,
+    "chapter": "Free roam",
+    "category": "activity",
+    "source": "PSNProfiles",
+    "difficulty": "Easy",
+    "time": "5–10 minutes"
+  },
+  "52": {
+    "steps": [
+      "Marked Bills are earned from robberies and certain missions — they cannot be spent directly and must be laundered through your contacts.",
+      "Open the laundering contact option and convert Marked Bills into clean cash, a little at a time.",
+      "Keep laundering until the cumulative total reaches $250,000 — the counter is tracked in the stats menu.",
+      "The trophy pops at $250,000 laundered."
+    ],
+    "tips": "Robberies are the best source of Marked Bills, so this pairs naturally with the bank vault and armored truck trophies. Launder regularly instead of hoarding bills.",
+    "missable": false,
+    "chapter": "Free roam / contacts",
+    "category": "activity",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Medium",
+    "time": "Across the playthrough"
+  },
+  "53": {
+    "steps": [
+      "Spend money across all shops: clothing stores, gun shops, car mod shops, food and convenience stores all count.",
+      "The $100,000 total is cumulative across the whole game — normal story spending already covers a large part of it.",
+      "If you are short, buy weapon upgrades and vehicle mods, which are the most expensive items.",
+      "The trophy pops when cumulative shop spending passes $100,000."
+    ],
+    "tips": "Do not grind this early — finish the story first and check the stats menu; most players are close already. Modding one good car can close the gap fast.",
+    "missable": false,
+    "chapter": "Free roam / shops",
+    "category": "activity",
+    "source": "TrueTrophies",
+    "difficulty": "Easy",
+    "time": "Across the playthrough"
+  },
+  "54": {
+    "steps": [
+      "Garage properties are buyable safehouses with vehicle storage — there are 8 across Leonida, marked on the map or property websites.",
+      "Save up and purchase each garage property; prices vary by location, so the city-centre ones cost the most.",
+      "Buy all 8 and the trophy pops on the final purchase."
+    ],
+    "tips": "Properties are also useful for storing rare vehicles, so buy them as you can afford them rather than all at the end.",
+    "missable": false,
+    "chapter": "Free roam / property",
+    "category": "collectible",
+    "source": "IGN GTA VI wiki",
+    "difficulty": "Medium",
+    "time": "Across the playthrough"
+  },
+  "55": {
+    "steps": [
+      "The Scooter Bros app is your in-game phone app for registering vehicles.",
+      "Drive 10 different vehicles and register each one through the app (open the app while in the vehicle and choose register).",
+      "Any vehicle type counts — cars, bikes and trucks all register the same way.",
+      "The trophy pops on the 10th registration."
+    ],
+    "tips": "Register vehicles as you discover them for the 100-vehicle trophy — the two trophies progress together.",
+    "missable": false,
+    "chapter": "Free roam / Scooter Bros app",
+    "category": "activity",
+    "source": "PowerPyx trophy guide",
+    "difficulty": "Easy",
+    "time": "20–30 minutes"
+  }
+}
